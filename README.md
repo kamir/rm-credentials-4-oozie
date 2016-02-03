@@ -3,7 +3,7 @@ Grab some remote RM-credentials to submit a MR-Job to a remote cluster.
 
 ----
 
-===Problem===
+--Problem
 
 Starting a MapReduce job in a different Hadoop-Cluster is required, e.g., to export an HBase snapshot from
 cluster A (analysis) to cluster B (backup, inspection, validation ... )
