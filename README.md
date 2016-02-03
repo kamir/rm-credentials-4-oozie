@@ -12,3 +12,13 @@ cluster A (analysis) to cluster B (backup, inspection, validation ... )
 
 Oozie offers the "Credentials" class and configuration to request Delegation Tokens from arbitrary services in each individual action.
 
+----
+
+##Usage
+
+1) Provide the jar file (...) to your Oozie-Server and restart.
+
+2) Define the new Credentials provider class in oozie-...xml (MORE DETAILS)
+
+3) Configure the credentials for your action
+
