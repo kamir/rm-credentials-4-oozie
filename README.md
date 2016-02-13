@@ -18,7 +18,7 @@ Oozie offers the "Credentials" class and configuration to request Delegation Tok
 
 1) Provide the jar file (...) to your Oozie-Server and restart.
 
-2) Define the new Credentials provider class in oozie-...xml (MORE DETAILS)
+2) Define the new credentials provider class in oozie-...xml in property "oozie.credentials.credentialclasses".
 
 3) Configure the credentials for your action
 
